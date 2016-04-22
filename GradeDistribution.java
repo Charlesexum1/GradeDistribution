@@ -13,7 +13,6 @@ public class GradeDistribution {
 	
 	private int A, B, C, D, F;
 	private int totalGrades;
-	private String ast = "*";
 	
 	private void setGrades(int numA, int numB, int numC, int numD, int numF){
 		A = numA;
@@ -69,7 +68,6 @@ public class GradeDistribution {
 		System.out.println();
 		}
 	private void generateDistribution(double x){
-		
 		double count = x / 2;
 		do {
 			System.out.print("*");
@@ -79,9 +77,6 @@ public class GradeDistribution {
 		System.out.println();
 		}
 		
-	
-												
-	
 	public static void main (String args[]) {
 		GradeDistribution demo = new GradeDistribution();
 		demo.setGrades(1,2,7,2,1);
